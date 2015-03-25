@@ -16,17 +16,19 @@ An application that simulates elevators in a building.
 
 <b>Goal of simulation: calculate average wait time for the elevator.</b>
 
-<b>Elevator Program Processing:</b>\n
+<b>Elevator Program Processing:</b>
 
 Generate random button-pushing events ( people on random floors pushing buttons to go to random floors. )
 Initialize elevators to their respective floors. 
 
 <b>First algorithm:</b>
+
 Elevators start on top, bottom, and middle (random) floors moving up or down. Once they cannot move in a particular direction, they reverse direction.
 
 If the elevator passes a floor with people going the elevator's way, the elevator opens the doors, and people come in.
 
 <b>Second algorithm:</b>
+
 When a person pushes a button on a floor an elevator is assigned to this person in the following order of priorities:
 Closest unassigned elevator going toward the person in the direction the person wants to travel
 Closest assigned elevator going toward the person in the direction the person wants to travel
@@ -34,6 +36,7 @@ Closest unassigned elevator. Elevator changes course toward the person.
 Furthers assigned elevator
 
 <b>Events:</b>
+
 1.person pushes button
 2.elevator opens doors
 3.elevator closes doors (elevator leaves floor)
