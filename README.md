@@ -32,14 +32,13 @@ If the elevator passes a floor with people going the elevator's way, the elevato
 When a person pushes a button on a floor an elevator is assigned to this person in the following order of priorities:
 Closest unassigned elevator going toward the person in the direction the person wants to travel
 Closest assigned elevator going toward the person in the direction the person wants to travel
-Closest unassigned elevator. Elevator changes course toward the person.
-Furthers assigned elevator
+Closest unassigned elevator. Elevator changes course toward the person. Furthers assigned elevator
 
 <b>Events:</b>
 
-1.person pushes button
-2.elevator opens doors
-3.elevator closes doors (elevator leaves floor)
-4.elevator arrives at floor (door beginning to open or maybe not, depending on algorithm used)
-5.elevator doors beginning to close
+- Person pushes button
+- Elevator opens doors
+- Elevator closes doors (elevator leaves floor)
+- Elevator arrives at floor (door beginning to open or maybe not, depending on algorithm used)
+- Elevator doors beginning to close
 etc.
