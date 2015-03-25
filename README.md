@@ -16,7 +16,7 @@ Length of simulation (7200 secs)
 
 Goal of simulation: calculate average wait time for the elevator.
 
-Elevator Program Processing:
+<b>Elevator Program Processing:</b>
 
 Generate random button-pushing events ( people on random floors pushing buttons to go to random floors. )
 Initialize elevators to their respective floors. 
