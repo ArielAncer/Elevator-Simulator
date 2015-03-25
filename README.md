@@ -3,16 +3,16 @@
 An application that simulates elevators in a building.
 
 <b>Parameters (testing defaults):</b>
-Floors(18)
-Elevators(3)
-Elevator capacity (10)
-Time between floors(2 sec)
-Time to open doors (1 sec)
-Time to close doors (1 sec)
-Time to exit elevator (2 sec per person)
-Time to enter elevator (3 sec per person)
-Number of people (200)
-Length of simulation (7200 secs)
+- Floors(18)
+- Elevators(3)
+- Elevator capacity (10)
+- Time between floors(2 sec)
+- Time to open doors (1 sec)
+- Time to close doors (1 sec)
+- Time to exit elevator (2 sec per person)
+- Time to enter elevator (3 sec per person)
+- Number of people (200)
+- Length of simulation (7200 secs)
 
 <b>Goal of simulation: calculate average wait time for the elevator.</b>
 
