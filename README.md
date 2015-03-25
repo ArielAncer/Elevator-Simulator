@@ -16,7 +16,7 @@ An application that simulates elevators in a building.
 
 <b>Goal of simulation: calculate average wait time for the elevator.</b>
 
-<b>Elevator Program Processing:</b>
+<b>Elevator Program Processing:</b>\n
 
 Generate random button-pushing events ( people on random floors pushing buttons to go to random floors. )
 Initialize elevators to their respective floors. 
